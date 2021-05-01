@@ -17,7 +17,9 @@ export function findNameOfTallestMountain(array: Mountain[]): string {
             tallestMountain = mountain;
         }
     });
-    console.log(tallestMountain.name);
+    
     return tallestMountain.name;
 }
 
+let result: string = findNameOfTallestMountain ( mountains );
+console.log( result );
